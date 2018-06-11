@@ -4,7 +4,8 @@
   "description": "Build a blockchain-based cryptocurrency (petaminds.com)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev-test": "nodemon dev"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/tungsd/blockchain-guide/issues"
   },
-  "homepage": "https://github.com/tungsd/blockchain-guide#readme"
+  "homepage": "https://github.com/tungsd/blockchain-guide#readme",
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  }
 }
